@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockControl.Infrastructure
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockControl.Application", "src\back-end\StockControl.Application\StockControl.Application.csproj", "{DEF361C9-16FE-4605-8A04-3BF47C217E95}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockControl.Communication", "src\shared\StockControl.Communication\StockControl.Communication.csproj", "{FE18DB42-3163-4C50-BAAE-0029405CDD41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{DEF361C9-16FE-4605-8A04-3BF47C217E95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEF361C9-16FE-4605-8A04-3BF47C217E95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEF361C9-16FE-4605-8A04-3BF47C217E95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE18DB42-3163-4C50-BAAE-0029405CDD41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE18DB42-3163-4C50-BAAE-0029405CDD41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE18DB42-3163-4C50-BAAE-0029405CDD41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE18DB42-3163-4C50-BAAE-0029405CDD41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +56,7 @@ Global
 		{866D77B0-3903-478D-A94D-3F54795308F2} = {E0C9147C-0C28-4BEB-B09D-499F8346EBA4}
 		{7B7F275C-8833-4BB7-9930-3D74F575FB93} = {E0C9147C-0C28-4BEB-B09D-499F8346EBA4}
 		{DEF361C9-16FE-4605-8A04-3BF47C217E95} = {E0C9147C-0C28-4BEB-B09D-499F8346EBA4}
+		{FE18DB42-3163-4C50-BAAE-0029405CDD41} = {3D2C9E27-8F67-4367-9781-8AE0292B94CF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B5610B63-2AB9-4152-95BB-2EB608F3DF27}
