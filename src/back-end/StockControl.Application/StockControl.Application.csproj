@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\shared\StockControl.Communication\StockControl.Communication.csproj" />
+    <ProjectReference Include="..\..\shared\StockControl.Exceptions\StockControl.Exceptions.csproj" />
+    <ProjectReference Include="..\StockControl.Domain\StockControl.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

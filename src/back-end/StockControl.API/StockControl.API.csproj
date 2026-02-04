@@ -14,4 +14,11 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\shared\StockControl.Communication\StockControl.Communication.csproj" />
+    <ProjectReference Include="..\..\shared\StockControl.Exceptions\StockControl.Exceptions.csproj" />
+    <ProjectReference Include="..\StockControl.Application\StockControl.Application.csproj" />
+    <ProjectReference Include="..\StockControl.Infrastructure\StockControl.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
